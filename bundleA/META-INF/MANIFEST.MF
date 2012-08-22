@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0-b64 (Sun Microsystems Inc.)
+Bundle-Activator: a.b.e.Activator
+Bundle-Version: 0.0.1.qualifier
+Bundle-Name: %plugin.name
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %plugin.vendor
+Bundle-SymbolicName: bundleA; singleton:=true
+Import-Package: a.b.c,
+ a.b.d
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/*.xml
